@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script4.js"></script>
+    <h1>Checkout Form</h1>
+
+    <form onsubmit="" class="container" action="">
+        <div class="container-inputs">
+            <div id="one">
+
+                <div class="info">
+                    <h4> Billing Address</h4>
+                </div>  
+
+                <div class="address"> <label for="" > <i class="fa-solid fa-user"></i>  Full Name</label>
+                    <input type="text" placeholder="Shiva">
+                </div>
+                <div class="address"> <label for=""> <i class="fa-solid fa-envelope"></i>Email</label>
+                    <input type="email" placeholder="shivaneupane@gmail.com">
+                </div>
+                <div class="address"> <label for=""> <i class="fa-solid fa-location-dot"></i>Address</label>
+                    <input type="text" placeholder="Manigram">
+                </div>
+                <div class="address"><label for=""><i class="fa-solid fa-city"></i>City</label>
+                    <input type="text" placeholder="Butwal">
+                </div>
+                
+             
+                <div class="address"><label for="city"></i>City</label>
+                <input type="text" placeholder="MH">
+                   </div>
+                <div class="address"><label for="zip">Zip</label>
+                    <input type="text" placeholder="10001">
+                </div>
+           
+
+            <div class="checkbox">    
+                <label for="checkbox"><input type="checkbox"></label>shipping address same as billing 
+            </div>
+                      
+               
+
+            </div>
+            <div id="two">
+                <div class="info">
+                    <h4> Payment</h4>
+                </div>
+
+
+                <div class="payment">
+                    Accept cards
+                    <div>
+                        <i class="fa-brands fa-cc-visa visa"></i>
+                        <i class="fa-brands fa-cc-amex amex"></i>
+                        <i class="fa-brands fa-cc-mastercard mastercard"></i>
+                        <i class="fa-brands fa-cc-discover discover"></i>
+                    </div>
+                </div>
+
+
+                <div class="payment">
+
+                    <label for="">Name on card</label>
+                    <input type="text" placeholder="Shiva">
+                </div>
+                <div class="payment">
+                    <label for=""> Credit Card Number</label>
+                    <input type="text" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="payment"> <label for="1000"> Exp Month </label>
+                    <input type="text" placeholder="november">
+                    <!-- <select name="Month" id="1000">
+                        <option value="January"> January </option>
+                        <option value="February"> February </option>
+                        <option value="March"> March </option>
+                        <option value="April"> April </option>
+                        <option value="May">May </option>
+                        <option value="June"> June</option>
+                        <option value="July"> July </option>
+                        <option value="August"> August</option>
+                        <option value="September"> September</option>
+                        <option value="October"> October</option>
+                        <option value="November"> November</option>
+                        <option value="December"> December</option>
+                    </select> -->
+                </div>
+                
+                    <div class="payment year"><label for=""> Exp year</label>
+                        <input type="text" placeholder="2002">
+                        <!-- <select name="" id="">
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                            <option value="">2004</option>
+                            <option value="">2005</option>
+                            <option value="">2006</option>
+                            <option value="">2007</option>
+                            <option value="">2008</option>
+                            <option value="">2009</option>
+                            <option value="">2010</option>
+                            <option value="">2011</option>
+                            <option value="">2012</option>
+                            <option value="">2013</option>
+                            <option value="">2014</option>
+                            <option value="">2015</option>
+                            <option value="">2016</option>
+                            <option value="">2017</option>
+                            <option value="">2018</option>
+                            <option value="">2019</option>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                            <option value="">2023</option>
+                            <option value="">2024</option>
+                            <option value="">2025</option>
+                            <option value="">2026</option>
+                            <option value="">2027</option>
+                            <option value="">2028</option>
+                            <option value="">2029</option>
+                            <option value="">2030</option>
+                            <option value="">2031</option>
+                            <option value="">2032</option>
+                            <option value="">2033</option>
+                            <option value="">2034</option>
+                            <option value="">2035</option>
+                            <option value="">2036</option>
+                            <option value="">2037</option>
+                            <option value="">2038</option>
+                            <option value="">2039</option>
+                            <option value="">2040</option>
+                            <option value="">2041</option>
+                            <option value="">2042</option>
+                            <option value="">2043</option>
+                            <option value="">2044</option>
+                            <option value="">2045</option>
+                            <option value="">2046</option>
+                            <option value="">2047</option>
+                            <option value="">2048</option>
+                            <option value="">2049</option>
+                            <option value="">2050</option>
+                        </select> -->
+                    </div>
+                    <div class="payment cvv"> <label for=""> CVV</label>
+                        <input type="text" placeholder="123">
+                    </div>
+               
+            </div>
+        </div>
+        
+             <input type="submit" value="continue to checkout" class="submit">         
+
+    </form>
+
+    <
+</body>
+
+</html>
