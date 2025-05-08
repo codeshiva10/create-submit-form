@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: arial;  
+}
+
+
+
+h1{
+    padding: 0 0 0 270px;
+    margin-bottom: 20px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    width: 60%;
+    margin: auto;
+    padding: 0 10px 0 10px; 
+    border: 2px solid #d6d6d6;
+    border-radius: 5px;
+}
+#one,#two{
+   
+    width:100%;
+    margin: 15px;
+    
+}
+#two{
+    padding-top: 15px;
+}
+
+
+.visa{
+    color: blue;
+}
+.amex{
+    color: #b1a1fb;
+}
+.mastercard{
+    color: red;
+}
+.discover{
+    color: orange;
+}
+
+
+.container-inputs{
+    display: flex;
+   
+}
+
+.payment, .address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.info{
+    margin: 10px 0;
+}
+
+
+
+.city-zip{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.fa-brands fa-cc-visa{
+    background-color: #807e99;
+}
+.submit{
+    color: white;
+   background-color: #04a96d;
+    width: 100%;
+    border-radius: 3px;   
+    margin: 10px 0;
+    border: none;
+    font-size: 17px;
+    
+}
+input{
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border: 2px solid #d6d6d6;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+select{
+    height: 30px;
+    border-color: #d6d6d6;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-inputs{
+     flex-direction: column;
+     
+     }
+     .container{
+        width: 90%;
+     }
+     input{
+         width: 290px;
+     }
+
+     input[type="checkbox"]{
+        width: 10px;
+        height: 15px;
+     }
+    .city-zip{
+     width: 50px;
+    }
+    h1{
+    
+            padding: 0 130px 0 0;
+            text-align: center;
+        }
+        
+    }
+ 
+   
+  
+
